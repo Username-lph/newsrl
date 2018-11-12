@@ -1,0 +1,19 @@
+*{
+    /* font-family:"微软雅黑"; */
+    font-family:my;
+    margin:0;
+    padding:0;
+}
+body{
+    padding-top:70px;
+}
+/* bs,若bs在里面可不写以下的@font-face */
+@font-face{
+    font-family:my;
+    src:url(../public/bs/fonts/glyphicons-halflings-regular.ttf);
+}
+.navbar-brand{
+    color:#fff!important;
+    font-weight:bolder;
+}
+

@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a,
+img {
+    border: 0;
+}
+
+/* flexslider */
+.flexslider {
+    position: relative;
+    width: 960px;
+    height: 540px;
+    overflow: hidden;
+    zoom: 1;
+    margin: 0 auto
+}
+
+#home_banner .flexslider {
+    position: relative;
+    width: 960px;
+    height: 600px;
+    overflow: hidden;
+    zoom: 1;
+    margin: 0 auto
+}
+
+#title6 {
+    overflow: visible;
+    height: 565px;
+}
+
+.flex-viewport {
+    max-height: 2000px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.flexslider .slides {
+    zoom: 1;
+}
+
+.flex-direction-nav a {
+    width: 60px;
+    height: 90px;
+    line-height: 99em;
+    overflow: hidden;
+    margin: -60px 0 0;
+    display: block;
+    background: url(../images/ad_ctr2.png) no-repeat;
+    position: absolute;
+    top: 36%;
+    z-index: 10;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .3s ease;
+}
+
+.flex-viewport {
+    min-height: 591px
+}
+
+#title6 ul.flex-direction-nav a {
+    width: 60px;
+    height: 90px;
+    line-height: 99em;
+    overflow: hidden;
+    margin: -60px 0 0;
+    display: block;
+    background: url(../images/ad_ctr2.png) no-repeat 0 -180px;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    cursor: pointer;
+    -webkit-transition: all .3s ease;
+}
+
+.flex-direction-nav .flex-next {
+    background-position: 0 -90px;
+    right: 277px;
+}
+
+#title6 .flex-direction-nav .flex-next {
+    background-position: 0 -270px;
+    right: 0;
+}
+
+.flex-direction-nav .flex-prev {
+    left: 277px;
+}
+
+#title6 .flex-direction-nav .flex-next {
+    left: 776px;
+}
+
+#title6 .flex-direction-nav .flex-prev {
+    left: -140px;
+}
+
+.flexslider:hover .flex-next {
+    opacity: 0.8;
+    filter: alpha(opacity=25);
+}
+
+.flexslider:hover .flex-prev {
+    opacity: 0.8;
+    filter: alpha(opacity=25);
+}
+
+.flexslider:hover .flex-next:hover,
+.flexslider:hover .flex-prev:hover {
+    opacity: 1;
+    filter: alpha(opacity=50);
+}
+
+.flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
+#home_banner .flex-control-nav {
+    top: 557px;
+}
+
+.flex-control-nav li {
+    margin: 0 5px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+.flex-control-paging li a {
+    background: url(../images/dot.png) no-repeat 0 -16px;
+    display: block;
+    height: 13px;
+    overflow: hidden;
+    text-indent: -99em;
+    width: 13px;
+    cursor: pointer;
+}
+
+#home_banner .flex-control-paging li a {
+    background: #c6c6c6;
+    border-radius: 16px;
+}
+
+.flex-control-paging li a.flex-active {
+    background-position: 0 0;
+}
+
+#home_banner .flex-control-paging li a.flex-active {
+    background: #a2650a;
+}
+
+#title5 .flex-control-nav,
+#title6 .flex-control-nav {
+    display: none
+}
