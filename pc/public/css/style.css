@@ -1043,8 +1043,17 @@ div.title.title_09>div>li>p {
 }
 
 /*帮助中心*/
+.help_container{
+    height:auto;
+    /* padding-bottom:15px!important; */
+    border: 1px solid #b0b0b0;
+    border-left:none;
+    display:flex;
+}
 .help ul {
-    height: 1164px
+    /* height: 1164px; */
+    height:auto;
+    padding-bottom:30px!important;
 }
 
 .help ul.fl {
@@ -1052,6 +1061,8 @@ div.title.title_09>div>li>p {
     width: 227px;
     color: #fffffd;
     text-align: center;
+    height:auto;
+    flex-grow:1;
 }
 
 .help ul.fl li a {
@@ -1074,9 +1085,12 @@ div.title.title_09>div>li>p {
 
 .help div.fr {
     width: 902px;
-    border: 1px solid #b0b0b0;
-    height: 1162px;
+    /* border: 1px solid #b0b0b0; */
+    /* height: 1162px; */
     border-left: none;
+    padding:15px auto;
+    flex-grow:1;
+    padding-bottom:30px;
 }
 
 .help div.fr>div {
