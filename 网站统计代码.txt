@@ -1,0 +1,6 @@
+    <!-- 统计网站数据代码 -->
+    <span id="cnzz_stat_icon_1254502574">
+        <a href="javascript:;" target="_blank" title="站长统计">
+            <img border="0" hspace="0" vspace="0" src="http://icon.cnzz.com/img/pic.gif">
+        </a>
+    </span>
